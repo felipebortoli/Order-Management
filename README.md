@@ -99,3 +99,5 @@ Os pedidos são armazenados em uma tabela (Order) e os itens dos pedidos em uma 
 
 Para garantir a escalabilidade, utilizei particionamento de tabelas e índices.
 
+Arquitetura resumida
+![img.png](img.png)
