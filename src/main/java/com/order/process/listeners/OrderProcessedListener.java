@@ -14,7 +14,7 @@ public class OrderProcessedListener {
         this.service = service;
     }
 
-    @KafkaListener(topics = "orders-processed", groupId = "order-processed-group")
+    @KafkaListener(id = "orderProcessedListener", topics = "orders-processed", groupId = "order-processed-group")
     public void listen(OrderResponse orderResponse) {
         service.addProcessedOrder(orderResponse);
     }
