@@ -30,8 +30,8 @@ Java 17 (opcional, apenas se quiser rodar localmente sem Docker).
 
 ### Passos para Execução
 
-git clone https://github.com/seu-usuario/order-service.git
-cd order-service
+clone o repositorio no link https://github.com/felipebortoli/Order-Management
+cd Order-Management
 
 ./gradlew clean build
 
